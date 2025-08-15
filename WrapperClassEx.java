@@ -1,6 +1,6 @@
 public class WrapperClassEx {
     public static void main(String[] args) {
-        int n1 = 10;
+        int n1 = 20;
         // Integer obj = Integer.valueOf(n1);  //manual boxing
         // int primitive = obj.intValue();     //manual unboxing
 
