@@ -79,7 +79,15 @@ public class EnumEx {
     }
 }
 
+// A Singleton is a design pattern where only one object of a class is created for
+//  the entire application.
+// It provides a single, global access point.
+// Example:
+// Logger (only one logger instance needed)
+// Database connection manager
 
+// Usually, we create singleton with private constructor + getInstance() method.
+// But it can break due to reflection, cloning, or serialization.
 
 
 
