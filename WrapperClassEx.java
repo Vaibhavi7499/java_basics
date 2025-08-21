@@ -12,21 +12,31 @@ public class WrapperClassEx {
     }
 }
 
-
+// In Java, wrapper classes are object representations of primitive data types.
+// They “wrap” a primitive value inside an object.
+// Example:
+// int → Integer
+// char → Character
+// double → Double
+// 👉 All wrapper classes are in the package java.lang.
 
 // In Java, a wrapper class is a class that wraps (encapsulates) a primitive data
 //  type into an object so it can be used where objects are required (like in
 //   collections, generics, etc.).
 //   But Java collections (ArrayList, HashMap, etc.) cannot store primitives directly — they work with objects.
-// Wrapper classes allow us to:
+// Object Requirement : Many frameworks (like Collections, JDBC, Hibernate) work only with objects, not primitives.
+// Example: ArrayList<int> ❌ → ArrayList<Integer> ✅
 
-// Treat primitive values as objects.
+// Utility Methods:Wrapper classes provide useful methods.
+// Example: Integer.parseInt("123") converts a string to int.
 
-// Use them in collections, generics, method parameters.
+// Autoboxing and Unboxing :Java automatically converts between primitives and wrappers.
+// Makes coding easier.
 
-// Provide utility methods (parsing, conversions).
+// Nullability :Wrappers can be null (primitives cannot). Useful in databases where a value can be missing.
 
-// Since Java 5:
+// Type Conversion:Wrappers help convert values between different types.
+// Example: Double.valueOf("3.14").
 
 // Autoboxing → primitive → wrapper automatically.
 
